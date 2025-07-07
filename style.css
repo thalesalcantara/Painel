@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: url('https://cdn-icons-png.flaticon.com/512/138/138292.png') repeat;
+  background-size: 80px;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #aaa;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+}
+
+input[type="text"], input[type="number"] {
+  width: 80px;
+  padding: 8px;
+  margin: 0 5px;
+  text-align: right;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 0 3px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  background-color: #2c7;
+  color: white;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+#resultado {
+  margin-top: 30px;
+  background: #e6ffe6;
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.peca-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}

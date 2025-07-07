@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reposição no tempo certo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>@lcantaraSystem</h1>
+    <h2>Reposição no tempo certo</h2>
+    <form id="calcForm">
+      <label>Km Rodado: <input type="text" id="km" required /></label>
+      <label>Consumo Médio (km/L): <input type="text" id="consumo" required /></label>
+      <label>Preço da Gasolina (R$): <input type="text" id="gasolina" required /></label>
+
+      <h3>Peças (Ajuste valores e durabilidades)</h3>
+      <div id="pecasInputs"></div>
+
+      <button type="submit">Calcular</button>
+    </form>
+
+    <div id="resultado"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
